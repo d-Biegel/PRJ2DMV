@@ -1,6 +1,8 @@
 # PRJ2DMV - DMV Batch License Processing
-A sample program that simulates what government mainframe offices do to process records like license requests. Takes a sequential input file with participants looking to obtain or renew their license and determines their eligiablity based on factors like: age, proof of insurance, test status, etc.
+A sample program that simulates what government mainframe offices do to process records like license requests. Takes a sequential input file with participants looking to obtain or renew their license and determines their eligibility based on factors like: age, proof of insurance, test status, etc.
 Also collects errors/failed license requests into an error log and concatenates them together into one report for easy transport and reading.
+
+#### DEMO VIDEO LINK <a href="https://youtu.be/KudNoUrRuWg">HERE</a>!
 
 COMPILES ON MVS 3.8 TK5 - FITS COBOL 68 STANDARD
 
@@ -10,7 +12,7 @@ You will need to have the following folders/files created:
 - PRJ2.DEV.COPYBOOk - for copybooks
 - PRJ2.DEV.LOADLIB - for output binaries
 - PRJ2.DEV.INPUT.LICTRNS - for input license transaction dataset
-(NOTE: if you use the 0-FULL-PRJ2-SETUP.jcl, you wont have to create all these manually)
+- (NOTE: if you use the 0-FULL-PRJ2-SETUP.jcl, you wont have to create all these manually)
 
 ## How to setup:
 ### SHORT WAY:
